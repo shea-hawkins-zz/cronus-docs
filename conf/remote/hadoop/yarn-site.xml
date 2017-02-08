@@ -16,12 +16,12 @@
 
 <!-- Site specific YARN configuration properties -->
   <property>                 
-		<name>yarn.resourcemanager.hostname</name>                 
-		<value>localhost:8032</value>         
-	</property>
-  <property>                 
 		<name>yarn.resourcemanager.address</name>                 
-		<value></value>         
+		<value>127.0.0.1</value>         
+	</property>
+	<property>                 
+		<name>yarn.resourcemanager.port</name>                 
+		<value>8032</value>         
 	</property>
 	<property>                 
 		<name>yarn.log-aggregation-enable</name>                 
