@@ -8,3 +8,10 @@ The ports are as follows:
 1) ssh -L 8032:localhost:8032 -L 9000:localhost:9000 -L 8088:localhost:8088 -L 50070:localhost:50070 -L 18080:localhost:18080 lab@spiralsoft.io -p 2201
 
 2) submitting applications: 
+spark-submit 
+  --class Archivist 
+  --master yarn 
+  --deploy-mode cluster   
+  --executor-memory 6G
+  --num-executors 1 
+  target/scala-2.11/cronus-archivist-assembly-1.0.jar

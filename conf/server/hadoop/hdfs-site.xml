@@ -22,7 +22,7 @@
 		<value>1</value>     
 	</property>
 	<property>   
-		<name>dfs.name.dir</name>   
+		<name>dfs.namenode.name.dir</name>   
 		<value>file:///drives/vol1/dfs/name</value> 
 	</property>
   <property>                 
@@ -30,7 +30,7 @@
 		<value>false</value>         
 	</property>
   <property>                 
-		<name>dfs.data.dir</name>                 
+		<name>dfs.datanode.data.dir</name>                 
 		<value>file:///drives/vol1/dfs/data</value>         
 	</property>
 </configuration>
